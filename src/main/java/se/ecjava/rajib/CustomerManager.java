@@ -10,9 +10,14 @@ public class CustomerManager {
   }
 
   public void addCustomer(Customer customer) {
-    if (findCustomer(customer.getEmail()) == null) {
+    if (validCustomer(customer)) {
       addCustomerToArray(customer);
     }
+  }
+
+  private boolean validCustomer(Customer customer) {
+    return (findCustomer(customer.getEmail()) == null &&
+        customer.getBankAccounts().length > 0);
   }
 
   public Customer findCustomer(String email) {

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d05552-6f75-469d-82ba-dfdc9bec93f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/ecjava/rajib/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/ecjava/rajib/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/ecjava/rajib/CustomerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/ecjava/rajib/CustomerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,26 +37,38 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/se/ecjava/rajib/Customer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="17" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="17" />
+                <state relative-caret-position="409">
+                  <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
                   <folding>
-                    <element signature="e#524#525#0" expanded="true" />
-                    <element signature="e#546#547#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#637#664#1" />
+                    <element signature="e#681#682#0" expanded="true" />
+                    <element signature="e#696#722#1" />
+                    <element signature="e#739#740#0" expanded="true" />
+                    <element signature="e#751#774#1" />
+                    <element signature="e#791#792#0" expanded="true" />
+                    <element signature="e#800#820#1" />
+                    <element signature="e#837#838#0" expanded="true" />
+                    <element signature="method#addBankAccount#0;class#Customer#0" />
+                    <element signature="method#addCustomerToArray#0;class#Customer#0" />
+                    <element signature="e#1247#1248#0" expanded="true" />
+                    <element signature="e#1272#1273#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/se/ecjava/rajib/CustomerManager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+                <state relative-caret-position="342">
+                  <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
                   <folding>
                     <element signature="e#143#144#0" expanded="true" />
                     <element signature="e#185#186#0" expanded="true" />
-                    <element signature="e#963#964#0" expanded="true" />
-                    <element signature="e#989#990#0" expanded="true" />
+                    <element signature="method#removeCustomerFromArray#0;class#CustomerManager#0" />
+                    <element signature="method#findIndexOfCustomer#0;class#CustomerManager#0" />
+                    <element signature="docComment;method#addCustomerToArray#0;class#CustomerManager#0" />
                   </folding>
                 </state>
               </provider>
@@ -62,8 +77,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+                <state relative-caret-position="270">
+                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
                 </state>
               </provider>
             </entry>
@@ -92,11 +107,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/se/ecjava/rajib/AccountManager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+                <state relative-caret-position="720">
+                  <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
                   <folding>
                     <element signature="e#117#118#0" expanded="true" />
                     <element signature="e#161#162#0" expanded="true" />
@@ -114,17 +129,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                <state relative-caret-position="439">
+                  <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerManagerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="990">
-                  <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+                <state relative-caret-position="472">
+                  <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#283#284#0" expanded="true" />
@@ -151,7 +166,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/se/ecjava/rajib/AccountManagerTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="327">
@@ -185,16 +200,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/se/ecjava/rajib/Customer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/se/ecjava/rajib/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/se/ecjava/rajib/CustomerManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerManagerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/se/ecjava/rajib/BankAccountTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/se/ecjava/rajib/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/test/java/se/ecjava/rajib/AccountManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/se/ecjava/rajib/AccountManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/se/ecjava/rajib/Customer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/se/ecjava/rajib/CustomerManager.java" />
       </list>
     </option>
   </component>
@@ -256,6 +271,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rajib" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Team-workshop---Java---Vecka-36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-workshop---Java---Vecka-36" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-workshop---Java---Vecka-36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-workshop---Java---Vecka-36" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-workshop---Java---Vecka-36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-workshop---Java---Vecka-36" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rajib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -290,8 +326,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountManagerTest.findAccount">
-    <configuration name="AccountManagerTest.addAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomerManagerTest.addInvalidCustomerFails">
+    <configuration name="CustomerManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab" />
       <extension name="coverage">
         <pattern>
@@ -300,14 +336,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="se.ecjava.rajib" />
-      <option name="MAIN_CLASS_NAME" value="se.ecjava.rajib.AccountManagerTest" />
-      <option name="METHOD_NAME" value="addAccount" />
+      <option name="MAIN_CLASS_NAME" value="se.ecjava.rajib.CustomerManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerManagerTest.addInvalidCustomerFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.ecjava.rajib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.ecjava.rajib" />
+      <option name="MAIN_CLASS_NAME" value="se.ecjava.rajib.CustomerManagerTest" />
+      <option name="METHOD_NAME" value="addInvalidCustomerFails" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountManagerTest.findAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.addBankAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab" />
       <extension name="coverage">
         <pattern>
@@ -316,14 +367,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="se.ecjava.rajib" />
-      <option name="MAIN_CLASS_NAME" value="se.ecjava.rajib.AccountManagerTest" />
-      <option name="METHOD_NAME" value="findAccount" />
+      <option name="MAIN_CLASS_NAME" value="se.ecjava.rajib.CustomerTest" />
+      <option name="METHOD_NAME" value="addBankAccount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountManagerTest.newAmSucess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.customer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab" />
       <extension name="coverage">
         <pattern>
@@ -332,14 +383,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="se.ecjava.rajib" />
-      <option name="MAIN_CLASS_NAME" value="se.ecjava.rajib.AccountManagerTest" />
-      <option name="METHOD_NAME" value="newAmSucess" />
+      <option name="MAIN_CLASS_NAME" value="se.ecjava.rajib.CustomerTest" />
+      <option name="METHOD_NAME" value="customer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountTest.withdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="se.ecjava.rajib in lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab" />
       <extension name="coverage">
         <pattern>
@@ -348,36 +399,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="se.ecjava.rajib" />
-      <option name="MAIN_CLASS_NAME" value="se.ecjava.rajib.BankAccountTest" />
-      <option name="METHOD_NAME" value="withdraw" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankAccountTest.withdraw1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="se.ecjava.rajib.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="se.ecjava.rajib" />
-      <option name="MAIN_CLASS_NAME" value="se.ecjava.rajib.BankAccountTest" />
-      <option name="METHOD_NAME" value="withdraw1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountManagerTest.findAccount" />
-        <item itemvalue="JUnit.AccountManagerTest.addAccount" />
-        <item itemvalue="JUnit.AccountManagerTest.newAmSucess" />
-        <item itemvalue="JUnit.BankAccountTest.withdraw" />
-        <item itemvalue="JUnit.BankAccountTest.withdraw1" />
+        <item itemvalue="JUnit.CustomerManagerTest.addInvalidCustomerFails" />
+        <item itemvalue="JUnit.CustomerManagerTest" />
+        <item itemvalue="JUnit.CustomerTest.addBankAccount" />
+        <item itemvalue="JUnit.CustomerTest.customer" />
+        <item itemvalue="JUnit.se.ecjava.rajib in lab" />
       </list>
     </recent_temporary>
   </component>
@@ -395,27 +428,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankAccountTest_withdraw - 2019.09.04 at 13h 55m 52s.xml">
-      <configuration name="BankAccountTest.withdraw" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankAccountTest_withdraw1 - 2019.09.04 at 13h 56m 57s.xml">
-      <configuration name="BankAccountTest.withdraw1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankAccountTest_withdraw1 - 2019.09.04 at 13h 57m 39s.xml">
-      <configuration name="BankAccountTest.withdraw1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankAccountTest_withdraw - 2019.09.04 at 13h 57m 53s.xml">
-      <configuration name="BankAccountTest.withdraw" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankAccountTest_withdraw - 2019.09.04 at 14h 16m 38s.xml">
-      <configuration name="BankAccountTest.withdraw" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankAccountTest_withdraw - 2019.09.04 at 14h 17m 04s.xml">
-      <configuration name="BankAccountTest.withdraw" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankAccountTest_withdraw - 2019.09.04 at 14h 19m 20s.xml">
-      <configuration name="BankAccountTest.withdraw" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AccountManagerTest_newAmSucess - 2019.09.04 at 14h 27m 24s.xml">
       <configuration name="AccountManagerTest.newAmSucess" configurationId="JUnit" />
     </history-entry>
@@ -424,6 +436,27 @@
     </history-entry>
     <history-entry file="AccountManagerTest_findAccount - 2019.09.04 at 14h 44m 42s.xml">
       <configuration name="AccountManagerTest.findAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountManagerTest_findAccount - 2019.09.04 at 15h 32m 20s.xml">
+      <configuration name="AccountManagerTest.findAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="se_ecjava_rajib_in_lab - 2019.09.04 at 15h 34m 16s.xml">
+      <configuration name="se.ecjava.rajib in lab" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_addBankAccount - 2019.09.04 at 15h 55m 59s.xml">
+      <configuration name="CustomerTest.addBankAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerManagerTest - 2019.09.04 at 15h 57m 48s.xml">
+      <configuration name="CustomerManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerManagerTest - 2019.09.04 at 16h 06m 05s.xml">
+      <configuration name="CustomerManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerManagerTest_addInvalidCustomerFails - 2019.09.04 at 16h 07m 00s.xml">
+      <configuration name="CustomerManagerTest.addInvalidCustomerFails" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerManagerTest_addInvalidCustomerFails - 2019.09.04 at 16h 12m 26s.xml">
+      <configuration name="CustomerManagerTest.addInvalidCustomerFails" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -476,17 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/se/ecjava/rajib/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/se/ecjava/rajib/BankAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -498,38 +520,6 @@
             <element signature="e#428#429#0" expanded="true" />
             <element signature="e#511#512#0" expanded="true" />
             <element signature="e#564#565#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/se/ecjava/rajib/CustomerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -572,13 +562,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/se/ecjava/rajib/AccountManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="720">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
           <folding>
             <element signature="e#117#118#0" expanded="true" />
             <element signature="e#161#162#0" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
             <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/ecjava/rajib/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#637#664#1" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#696#722#1" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#751#774#1" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#800#820#1" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="method#addBankAccount#0;class#Customer#0" />
+            <element signature="method#addCustomerToArray#0;class#Customer#0" />
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/se/ecjava/rajib/CustomerManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/ecjava/rajib/CustomerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="method#removeCustomerFromArray#0;class#CustomerManager#0" />
+            <element signature="method#findIndexOfCustomer#0;class#CustomerManager#0" />
+            <element signature="docComment;method#addCustomerToArray#0;class#CustomerManager#0" />
           </folding>
         </state>
       </provider>
